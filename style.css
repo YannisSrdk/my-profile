@@ -1,0 +1,103 @@
+body {
+    background-color: #fffefa;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.4;
+}
+
+h1, h2 {
+    color: #fcba03;
+}
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  
+    .container {
+         width: 700px;
+       }
+}
+
+@media (max-width: 720px) {
+  
+    .container {
+         width: 500px;
+       }
+}
+
+@media (max-width: 540px) {
+  
+    .container {
+        width: 300px;
+    }
+}
+
+.div-rectangle {
+    background: #fffefa;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-white {
+    background: #ffffff;                         
+    padding: 30px;                             
+    border-radius: 4px;                        
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-rounded {
+    border-radius: 5%;
+    width: 409px;
+    height: 272px;
+    text-align: center;
+}
+
+.btn-yellow {
+    background: #fcba03;
+    color: white;
+    padding: 13px 16px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top:30px;
+}
+
+.btn-yellow:hover{
+    background: #ffd04d;
+    color: white;
+}
+
+.divbtn-margintop {
+    margin-top: 40px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 35px;
+    color: #fcba03;
+}
+
+.list-inline i:hover {
+    color: #ffd86e;
+}
+
